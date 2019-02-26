@@ -1,4 +1,4 @@
-exports = (nbSeconds) => {
+module.exports = (nbSeconds) => {
 	// Constants
 	const BITS_PER_BYTE = 8;
 
