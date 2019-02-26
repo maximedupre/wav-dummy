@@ -1,6 +1,6 @@
 {
   "name": "wav-dummy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates a silent, dummy wav of a specific duration for tests",
   "main": "main.js",
   "keywords": [

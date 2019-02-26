@@ -62,4 +62,6 @@ module.exports = (nbSeconds) => {
 	for (let i = 0; i < subChunk2Size; i++) {
 		dataView.setUint8(44 + i, Math.round((Math.random() * 255)));
 	}
+
+	return arrayBuffer;
 }
