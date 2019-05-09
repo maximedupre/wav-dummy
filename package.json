@@ -1,16 +1,21 @@
 {
-  "name": "wav-dummy",
-  "version": "1.1.0",
-  "description": "Generates a silent, dummy wav of a specific duration for tests",
-  "main": "main.js",
-  "keywords": [
-    "wav",
-    "wave",
-    "dummy",
-    "test",
-    "double",
-    "file"
-  ],
-  "author": "maximedupre",
-  "license": "ISC"
+	"name": "wav-dummy",
+	"version": "1.2.0",
+	"description": "Generates a silent, dummy wav of a specific duration for tests",
+	"main": "main.js",
+	"keywords": [
+		"wav",
+		"wave",
+		"dummy",
+		"unit",
+		"integration",
+		"test",
+		"double",
+		"file"
+	],
+	"homepage": "https://github.com/maximedupre/mp3-dummy#readme",
+	"bugs": "https://github.com/maximedupre/mp3-dummy/issues",
+	"repository": "github:maximedupre/mp3-dummy",
+	"license": "MIT",
+	"author": "maximedupre"
 }
