@@ -13,9 +13,9 @@
 		"double",
 		"file"
 	],
-	"homepage": "https://github.com/maximedupre/mp3-dummy#readme",
-	"bugs": "https://github.com/maximedupre/mp3-dummy/issues",
-	"repository": "github:maximedupre/mp3-dummy",
+	"homepage": "https://github.com/maximedupre/wav-dummy#readme",
+	"bugs": "https://github.com/maximedupre/wav-dummy/issues",
+	"repository": "github:maximedupre/wav-dummy",
 	"license": "MIT",
 	"author": "maximedupre"
 }
