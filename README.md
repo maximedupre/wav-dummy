@@ -6,7 +6,7 @@ Simple browser/node module to generate a dummy wav file of a specific duration, 
 ## Usage
     const wavDummy = require('wav-dummy');
 
-	// Generates a 10 second stereo wav file with a 44.1k sample rate
+	// Generates a 10 second stereo wav file with a 44.1kHz sample rate
 	const wavFile = wavDummy(10, 2, 44100)
 
 ## API
