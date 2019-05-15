@@ -1,4 +1,4 @@
-module.exports = (nbSeconds, nbChannels) => {
+module.exports = (nbSeconds, nbChannels, sampleRate) => {
 	if (nbSeconds === undefined || typeof nbSeconds !== 'number') {
 		throw 'nbSeconds must be a valid number!'
 	}
@@ -7,12 +7,15 @@ module.exports = (nbSeconds, nbChannels) => {
 		throw 'nbChannels must be a valid number!'
 	}
 
+	if (sampleRate === undefined || typeof sampleRate !== 'number') {
+		throw 'sampleRate must be a valid number!'
+	}
+
 	// Constants
 	const BITS_PER_BYTE = 8;
 
 	// Configs
 	const bitsPerSample = 8;
-	const sampleRate = 44100;
 	const subChunk2Size = sampleRate * (nbSeconds * nbChannels);
 	const chunkSize = 36 + subChunk2Size;
 	const blockAlign = nbChannels * (bitsPerSample / BITS_PER_BYTE);
