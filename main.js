@@ -1,4 +1,4 @@
-module.exports = (nbSeconds, nbChannels, sampleRate) => {
+module.exports = (nbSeconds, nbChannels = 2, sampleRate = 44100) => {
 	if (nbSeconds === undefined || typeof nbSeconds !== 'number') {
 		throw 'nbSeconds must be a valid number!'
 	}
